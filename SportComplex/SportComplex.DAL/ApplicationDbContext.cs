@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure;
 using SportComplex.DAL.Entities;
 
 namespace SportComplex.DAL
@@ -8,16 +7,14 @@ namespace SportComplex.DAL
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            //if(Database.IsRelational())
-            //{
-            //    Database.Migrate();
-            //}
+            if(Database.IsRelational())
+            {
+                Database.Migrate();
+            }
         }
 
         public DbSet<UserEntity> Users { get; set; }
-
         public DbSet<CoachEntity> Coaches { get; set; }
-
         public DbSet<ReviewEntity> Reviews { get; set; }
 
         public DbSet<FootballBookingEntity> FootballBookings { get; set; }
