@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SportComplex.DAL\SportComplex.DAL.csproj" />
+  </ItemGroup>
+
 </Project>

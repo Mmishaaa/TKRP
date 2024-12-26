@@ -1,6 +1,0 @@
-@SportComplex_HostAddress = http://localhost:5122
-
-GET {{SportComplex_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
