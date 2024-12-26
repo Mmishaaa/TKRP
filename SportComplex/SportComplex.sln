@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportComplex", "SportComplex\SportComplex.csproj", "{F76DF6C1-77DA-406D-9ED6-7C369BD0BE22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportComplex.API", "SportComplex\SportComplex.API.csproj", "{F76DF6C1-77DA-406D-9ED6-7C369BD0BE22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportComplex.BLL", "SportComplex.BLL\SportComplex.BLL.csproj", "{2F005AA1-D847-4678-BC7E-55ECE9DA58BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportComplex.BLL", "SportComplex.BLL\SportComplex.BLL.csproj", "{2F005AA1-D847-4678-BC7E-55ECE9DA58BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportComplex.DAL", "SportComplex.DAL\SportComplex.DAL.csproj", "{8DB40E32-5E83-4364-A6DF-01A163C91CF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportComplex.DAL", "SportComplex.DAL\SportComplex.DAL.csproj", "{8DB40E32-5E83-4364-A6DF-01A163C91CF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
