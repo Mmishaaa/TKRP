@@ -6,7 +6,7 @@ namespace SportComplex.DAL.DI
 {
     public static class DependencyInjection
     {
-        public static void AddDataAccesLayer(this IServiceCollection services, IConfiguration configuration)
+        public static void AddDataAccessLayer(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<ApplicationDbContext>(cfg
                 => cfg.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));

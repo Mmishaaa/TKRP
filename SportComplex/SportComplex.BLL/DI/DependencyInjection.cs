@@ -8,7 +8,7 @@ namespace SportComplex.BLL.DI
     {
         public static void AddBuisnessLogicLayer(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDataAccesLayer(configuration);
+            services.AddDataAccessLayer(configuration);
         }
     }
 }
