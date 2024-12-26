@@ -6,9 +6,9 @@
         public DateTime CreatedAt { get; set; }
         public int StarsCount { get; set; }
 
-        public Guid? UserId { get; set; }
+        public Guid UserId { get; set; }
         public UserEntity? User { get; set; }
-        public Guid? CoachId { get; set; }
+        public Guid CoachId { get; set; }
         public CoachEntity? Coach { get; set; }
     }
 }
