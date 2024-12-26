@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using SportComplex.DAL.Interfaces;
 using SportComplex.DAL.Repositories;
 
@@ -22,6 +23,15 @@ namespace SportComplex.DAL.DI
             services.AddScoped<IPingPongEquipmentRepository, PingPongEquipmentRepository>();
             services.AddScoped<IPingPongTableRepository, PingPongTableRepository>();
             services.AddScoped<IReviewRepository, ReviewRepository>();
+            services.AddScoped<ISwimmingPoolBookingRepository, SwimmingPoolBookingRepository>();
+            services.AddScoped<ISwimmingPoolRepository, SwimmingPoolRepository>();
+            services.AddScoped<ISwimmingPoolEquipmentRepository, SwimmingPoolEquipmentRepository>();
+            services.AddScoped<ITennisCourtRepository, TennisCourtRepository>();
+            services.AddScoped<ITennisEquipmentRepository, TennisEquipmentRepository>();
+            services.AddScoped<ITennisBookingRepository, TennisBookingRepository>();
+            services.AddScoped<IFootballBookingRepository, FootballBookingRepository>();
+            services.AddScoped<IFootballEquipmentRepository, FootballEquipmentRepository>();
+            services.AddScoped<IFootballFieldRepository, FootballFieldRepository>();
         }
     }
 }
