@@ -7,10 +7,10 @@ namespace SportComplex.DAL
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            if(Database.IsRelational())
-            {
-                Database.Migrate();
-            }
+            //if(Database.IsRelational())
+            //{
+            //    Database.Migrate();
+            //}
         }
 
         public DbSet<UserEntity> Users { get; set; }
@@ -37,4 +37,6 @@ namespace SportComplex.DAL
         public DbSet<TennisCourtEntity> TennisCourts { get; set; }
         public DbSet<TennisEquipmentEntity> TennisEquipments { get; set; }
     }
+
+    
 }
