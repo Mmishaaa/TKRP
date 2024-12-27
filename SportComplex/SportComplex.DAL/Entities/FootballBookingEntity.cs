@@ -14,7 +14,7 @@
         public Guid? CoachId { get; set; }
         public CoachEntity? Coach { get; set; }
 
-        public Guid? FootbalEquipmentId { get; set; }
-        public FootballEquipmentEntity? FootbalEquipment { get; set; }
+        public Guid? FootballEquipmentId { get; set; }
+        public FootballEquipmentEntity? FootballEquipment { get; set; }
     }
 }
