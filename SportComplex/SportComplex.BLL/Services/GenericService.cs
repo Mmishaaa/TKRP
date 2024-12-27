@@ -4,7 +4,6 @@ using SportComplex.BLL.Interfaces;
 using SportComplex.DAL.Entities;
 using SportComplex.DAL.Interfaces;
 using SportComplex.DAL.PaginationModels;
-using SportComplex.DAL.Repositories;
 
 namespace SportComplex.BLL.Services
 {
