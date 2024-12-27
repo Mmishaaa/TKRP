@@ -1,3 +1,4 @@
+using SportComplex.API.Mapper;
 using SportComplex.API.Middlewares;
 using SportComplex.BLL.DI;
 
@@ -7,6 +8,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddBusinessLogicLayer(builder.Configuration);
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
 
